@@ -238,7 +238,7 @@ const searchProduct = async (req, res) => {
 
 const getDiscoverHomepage = async (req, res) => {
   try {
-    const products = await getAllProduct(3);
+    const products = await getAllProduct(5);
 
     return res.status(200).json({
       data: products,
