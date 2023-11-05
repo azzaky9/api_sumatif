@@ -6,6 +6,8 @@ const {
   Feature,
   ListFeature
 } = require("../../model/feature");
+const logger = require("../../lib/logger");
+const fetch = require("node-fetch");
 
 const createProduct = async (req, res) => {
   try {
@@ -58,7 +60,7 @@ const createProduct = async (req, res) => {
       .status(200)
       .send({ message: "Product complete to create", status: "success" });
   } catch (error) {
-    console.log(error.message);
+    logger.error(error.message);
     res.status(404).send({ message: error.message, status: "failed" });
   }
 };
@@ -74,7 +76,6 @@ const formatToIdrCurrency = (priceNum) => {
 
 const createSchema = async (rawData) => {
   try {
-
     const calcBeforAndAfterPrice = (exactPrice, discount) => {
       const getDiscount = (discount / 100) * exactPrice;
       const decreasePrice = exactPrice - getDiscount;
@@ -154,7 +155,7 @@ const createSchema = async (rawData) => {
 
     return createResponse;
   } catch (error) {
-    console.log(error);
+    logger.error(error.message);
   }
 };
 
@@ -179,7 +180,7 @@ const getAllProduct = async (limitter) => {
 
     return result;
   } catch (error) {
-    console.log(error);
+    console.log(error.message);
   }
 };
 
@@ -189,8 +190,12 @@ const getProduct = async (req, res) => {
 
     const result = await getAllProduct();
 
+    logger.info("GET /product");
+
     return res.status(200).send({ data: result, status: "success" });
   } catch (error) {
+    logger.error(error.message);
+
     return res.status(400).send({ message: error.message, status: "error" });
   }
 };
@@ -227,7 +232,7 @@ const searchProduct = async (req, res) => {
 
     res.status(200).send({ status: "success", data: dummy });
   } catch (error) {
-    console.log(error);
+    logger.error(error.message);
 
     res.status(400).send({
       status: "failed",
@@ -245,7 +250,7 @@ const getDiscoverHomepage = async (req, res) => {
       status: "success"
     });
   } catch (error) {
-    console.log(error);
+    logger.error(error.message);
 
     return res.status(400).json({
       message: "Indicated bad request",
@@ -254,9 +259,65 @@ const getDiscoverHomepage = async (req, res) => {
   }
 };
 
+const getRuangGuruBrainAcademy = async (req, res) => {
+  try {
+    // q learning method must be online or onsite
+    // q kelas must be start without kelas exc = 3-sd
+
+    const { learnMethod, kelas } = req.query;
+
+    console.log(learnMethod, kelas);
+
+    const response = await fetch(
+      `https://gw.ruangguru.com/api/v3/rg-product-package-api/active-packages?page=1&pageSize=30&excludedTags=old-flow,ios&tags=brainacademy-online,kelas-${kelas}`
+    );
+
+    const data = await response.json();
+
+    if (data.data.items.length === 0) {
+      return res.status(200).json({ status: "success", data: [] });
+    }
+
+    if (!data) {
+      throw new Error("Api ruang guru haved trouble or the api get new update");
+    }
+
+    const convertDataSchema = data.data.items.map((item, index) => {
+      const makeFeature = item.description.split("\n");
+
+      return {
+        title: item.name,
+        description:
+          "Video pembelajaran interaktif, latihan soal, rangkuman infografis, dan fitur seru lainnya",
+        fitur: [
+          {
+            heading: "Yang kamu dapatkan di Brain Academy online",
+            list_fitur: makeFeature
+          }
+        ],
+        discount: item.voucherValidation.voucherPercentage,
+        group_by_month: 9,
+        price: {
+          after_discount: formatToIdrCurrency(item.basePrice),
+          before_discount: formatToIdrCurrency(item.finalPrice)
+        }
+      };
+    });
+
+    return res.status(200).send({ status: "success", data: convertDataSchema });
+  } catch (error) {
+    logger.error(error.message);
+
+    return res
+      .status(400)
+      .send({ status: "failed", message: "some error ocurred on the server" });
+  }
+};
+
 module.exports = {
   createProduct,
   getProduct,
   getDiscoverHomepage,
-  searchProduct
+  searchProduct,
+  getRuangGuruBrainAcademy
 };
