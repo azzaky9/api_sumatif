@@ -326,7 +326,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="X8YrKqqbUvwrMxKWU0zk" name="Page-4">
-    <mxGraphModel dx="1035" dy="551" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="503" dy="267" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -845,8 +845,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Rc_pHCzTMvs9xw5-zSlo-7" value="Mengajar" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=none;" vertex="1" connectable="0" parent="Rc_pHCzTMvs9xw5-zSlo-6">
-          <mxGeometry x="-0.2068" y="1" relative="1" as="geometry">
+        <mxCell id="Rc_pHCzTMvs9xw5-zSlo-39" value="Mengajar" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" connectable="0" parent="Rc_pHCzTMvs9xw5-zSlo-6">
+          <mxGeometry x="-0.2126" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -860,8 +860,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Rc_pHCzTMvs9xw5-zSlo-9" value="Membimbing" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=none;" vertex="1" connectable="0" parent="Rc_pHCzTMvs9xw5-zSlo-8">
-          <mxGeometry x="0.122" relative="1" as="geometry">
+        <mxCell id="Rc_pHCzTMvs9xw5-zSlo-40" value="Membimbing" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" connectable="0" parent="Rc_pHCzTMvs9xw5-zSlo-8">
+          <mxGeometry x="-0.1123" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -874,8 +874,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Rc_pHCzTMvs9xw5-zSlo-11" value="Jadwal ku;liah" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=none;" vertex="1" connectable="0" parent="Rc_pHCzTMvs9xw5-zSlo-10">
-          <mxGeometry x="-0.1483" y="-4" relative="1" as="geometry">
+        <mxCell id="Rc_pHCzTMvs9xw5-zSlo-38" value="Jadwal" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" connectable="0" parent="Rc_pHCzTMvs9xw5-zSlo-10">
+          <mxGeometry x="-0.1581" y="4" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -889,8 +889,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Rc_pHCzTMvs9xw5-zSlo-22" value="Jadwal; Perkuliahan" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=none;" vertex="1" connectable="0" parent="Rc_pHCzTMvs9xw5-zSlo-12">
-          <mxGeometry x="-0.0156" y="4" relative="1" as="geometry">
+        <mxCell id="Rc_pHCzTMvs9xw5-zSlo-35" value="Jadwal Perkuliahan" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" connectable="0" parent="Rc_pHCzTMvs9xw5-zSlo-12">
+          <mxGeometry x="-0.08" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -905,8 +905,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Rc_pHCzTMvs9xw5-zSlo-14" value="KRS" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=none;" vertex="1" connectable="0" parent="Rc_pHCzTMvs9xw5-zSlo-13">
-          <mxGeometry x="-0.4035" relative="1" as="geometry">
+        <mxCell id="Rc_pHCzTMvs9xw5-zSlo-34" value="Krs" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" connectable="0" parent="Rc_pHCzTMvs9xw5-zSlo-13">
+          <mxGeometry x="-0.4545" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -920,8 +920,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Rc_pHCzTMvs9xw5-zSlo-21" value="Daftar Mahasiswa" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=none;" vertex="1" connectable="0" parent="Rc_pHCzTMvs9xw5-zSlo-20">
-          <mxGeometry x="-0.4527" y="-1" relative="1" as="geometry">
+        <mxCell id="Rc_pHCzTMvs9xw5-zSlo-33" value="Daftar Mahasiswa" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" connectable="0" parent="Rc_pHCzTMvs9xw5-zSlo-20">
+          <mxGeometry x="-0.4072" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -935,8 +935,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Rc_pHCzTMvs9xw5-zSlo-24" value="Matkul" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=none;" vertex="1" connectable="0" parent="Rc_pHCzTMvs9xw5-zSlo-23">
-          <mxGeometry x="-0.1473" y="-3" relative="1" as="geometry">
+        <mxCell id="Rc_pHCzTMvs9xw5-zSlo-36" value="Matkul" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" connectable="0" parent="Rc_pHCzTMvs9xw5-zSlo-23">
+          <mxGeometry x="-0.0912" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -949,8 +949,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Rc_pHCzTMvs9xw5-zSlo-26" value="Daftar Mahasiswa" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=none;" vertex="1" connectable="0" parent="Rc_pHCzTMvs9xw5-zSlo-25">
-          <mxGeometry x="-0.0349" y="-1" relative="1" as="geometry">
+        <mxCell id="Rc_pHCzTMvs9xw5-zSlo-37" value="Daftar Mahasiswa" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" connectable="0" parent="Rc_pHCzTMvs9xw5-zSlo-25">
+          <mxGeometry x="-0.0468" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -963,8 +963,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Rc_pHCzTMvs9xw5-zSlo-28" value="Nama-Matkul" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=none;" vertex="1" connectable="0" parent="Rc_pHCzTMvs9xw5-zSlo-27">
-          <mxGeometry x="0.266" y="-2" relative="1" as="geometry">
+        <mxCell id="Rc_pHCzTMvs9xw5-zSlo-42" value="Nama Matkul" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" connectable="0" parent="Rc_pHCzTMvs9xw5-zSlo-27">
+          <mxGeometry x="0.0757" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -978,8 +978,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Rc_pHCzTMvs9xw5-zSlo-30" value="Jadwal" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=none;" vertex="1" connectable="0" parent="Rc_pHCzTMvs9xw5-zSlo-29">
-          <mxGeometry x="0.096" relative="1" as="geometry">
+        <mxCell id="Rc_pHCzTMvs9xw5-zSlo-41" value="Jadwal" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" connectable="0" parent="Rc_pHCzTMvs9xw5-zSlo-29">
+          <mxGeometry x="0.1703" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -992,8 +992,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Rc_pHCzTMvs9xw5-zSlo-32" value="Dosen Pengampu" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelBackgroundColor=none;" vertex="1" connectable="0" parent="Rc_pHCzTMvs9xw5-zSlo-31">
-          <mxGeometry x="0.2975" y="1" relative="1" as="geometry">
+        <mxCell id="Rc_pHCzTMvs9xw5-zSlo-43" value="Dosen Pengampu" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" connectable="0" parent="Rc_pHCzTMvs9xw5-zSlo-31">
+          <mxGeometry x="0.2002" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
